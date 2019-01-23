@@ -22,4 +22,15 @@ public class FeatureOne {
     public void helpFeature() {
         System.out.printf("这是一个测试的功能");
     }
+
+    /**
+     * Method: twoFeature
+     * Description: 第二个功能
+     *
+     * @param
+     * @return void
+     */
+    public void twoFeature() {
+        System.out.printf("这是第二个功能的开发");
+    }
 }

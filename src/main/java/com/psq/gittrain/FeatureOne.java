@@ -32,6 +32,5 @@ public class FeatureOne {
      */
     public void twoFeature() {
         System.out.printf("这是第二个功能的开发");
-        System.out.printf("这个是有问题的代码，代码审核时会出现问题！");
     }
 }

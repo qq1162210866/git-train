@@ -21,6 +21,5 @@ public class FeatureOne {
      */
     public void helpFeature() {
         System.out.printf("这是一个测试的功能");
-        System.out.printf("此处是有问题的代码！合并时存在问题");
     }
 }

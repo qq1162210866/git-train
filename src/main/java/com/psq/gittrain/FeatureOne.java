@@ -1,5 +1,8 @@
 package com.psq.gittrain;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * FeatureOne.java
  * Description: 功能模块，第一个功能。
@@ -32,5 +35,19 @@ public class FeatureOne {
      */
     public void twoFeature() {
         System.out.printf("这是第二个功能的开发");
+    }
+
+    /**
+     * Method: listEquipmentsByES
+     * Description: 根据es查询所有的设备列表
+     *
+     * @param
+     * @return java.lang.String
+     */
+    public String listEquipmentsByES() {
+        List<String> stringList = new ArrayList<>();
+        stringList.add("风机");
+        stringList.add("照明");
+        return "这是全部的设备" + stringList.toString();
     }
 }

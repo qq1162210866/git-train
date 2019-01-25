@@ -61,6 +61,6 @@ public class FeatureOne {
     public String listVideoUrlByRedis() {
         System.err.println("现在开始查询摄像机");
         List<String> vidoeUrls = new ArrayList<>();
-        return vidoeUrls.toString();
+        return null;
     }
 }

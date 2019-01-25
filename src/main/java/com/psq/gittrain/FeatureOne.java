@@ -61,7 +61,7 @@ public class FeatureOne {
     public String listVideoUrlByRedis() {
         System.err.println("现在开始查询摄像机");
         List<String> vidoeUrls = new ArrayList<>();
-        vidoeUrls.add("10.168.5.225");
-        return vidoeUrls.toString();
+        System.out.printf("这是一段有问题的代码，审核时会出现问题");
+        return null;
     }
 }

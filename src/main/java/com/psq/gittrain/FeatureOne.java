@@ -61,7 +61,6 @@ public class FeatureOne {
     public String listVideoUrlByRedis() {
         System.err.println("现在开始查询摄像机");
         List<String> vidoeUrls = new ArrayList<>();
-        System.out.printf("这是一段有问题的代码，审核时会出现问题");
         return null;
     }
 }

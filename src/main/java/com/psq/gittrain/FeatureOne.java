@@ -50,7 +50,6 @@ public class FeatureOne {
         stringList.add("照明");
         return "这是全部的设备" + stringList.toString();
     }
-
     /**
      * Method: listVideoUrlByRedis
      * Description: 查询所有的摄像机url

@@ -50,4 +50,17 @@ public class FeatureOne {
         stringList.add("照明");
         return "这是全部的设备" + stringList.toString();
     }
+    /**
+     * Method: listVideoUrlByRedis
+     * Description: 查询所有的摄像机url
+     *
+     * @param
+     * @return java.lang.String
+     */
+    public String listVideoUrlByRedis() {
+        System.err.println("现在开始查询摄像机");
+        List<String> vidoeUrls = new ArrayList<>();
+        vidoeUrls.add("10.168.5.225");
+        return vidoeUrls.toString();
+    }
 }

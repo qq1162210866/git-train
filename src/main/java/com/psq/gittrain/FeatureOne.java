@@ -65,4 +65,19 @@ public class FeatureOne {
         System.err.println("这是第二个功能分支");
         return null;
     }
+
+    /**
+     * Method: listVideoUrlByRedis
+     * Description: 查询所有摄像机从es
+     *
+     * @param
+     * @return java.lang.String
+     */
+    public String listVideoUrlByES() {
+
+        System.err.println("现在开始查询摄像机");
+        return null;
+    }
+
+
 }
